@@ -7,6 +7,5 @@ class Car:
     def get_info(self):
         print(f'автомобиль {self.name}')
         print(f'год выпуска {self.year}')
-        print(f'владелец {self.name}')
+        print(f'владелец {self.own_name}')
 
-    
